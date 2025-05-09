@@ -1,12 +1,12 @@
 {
   "/_not-found/page": "/_not-found",
+  "/register/page": "/register",
   "/login/page": "/login",
   "/page": "/",
-  "/register/page": "/register",
-  "/dashboard/admin/moderation/page": "/dashboard/admin/moderation",
-  "/dashboard/explore/page": "/dashboard/explore",
   "/dashboard/credits/page": "/dashboard/credits",
-  "/dashboard/page": "/dashboard",
   "/dashboard/post/[id]/page": "/dashboard/post/[id]",
+  "/dashboard/explore/page": "/dashboard/explore",
+  "/dashboard/admin/moderation/page": "/dashboard/admin/moderation",
+  "/dashboard/page": "/dashboard",
   "/dashboard/saved/page": "/dashboard/saved"
 }
