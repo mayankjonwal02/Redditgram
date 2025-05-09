@@ -109,7 +109,7 @@ const checkToken_or_Update = async () => {
       title:        d.title,
       author:       d.author,
       subreddit:    d.subreddit,
-      subredditId:  d.subreddit_id || d.name,
+      subredditId:  d.name,
       permalink:    `https://reddit.com${d.permalink}`,
       score:        d.ups,
       numComments:  d.num_comments,
@@ -218,6 +218,7 @@ const fetchSpecificPost = async (req, res) => {
 
     // Fetch the specific subreddit feed
     const accessToken = retrieveAccessToken();
+    console.log("body is", req.body);
     const subredditid = req.body.subredditid; // Get subreddit from request body
     console.log(`Fetching feed for subreddit: ${subredditid}...`);
     const response = await fetch(`https://oauth.reddit.com/api/info?id=${subredditid}`, {
@@ -236,6 +237,7 @@ const fetchSpecificPost = async (req, res) => {
 
     console.log("Response is OK, parsing JSON...");
     const json = await response.json();
+    console.log("JSON response:", json.data.children[0]); // Log the JSON response for debugging
     const post = json.data.children[0] || [];
 
     // // Normalize
