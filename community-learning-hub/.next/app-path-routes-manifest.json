@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/login/page": "/login",
+  "/page": "/",
+  "/register/page": "/register",
+  "/dashboard/admin/moderation/page": "/dashboard/admin/moderation",
+  "/dashboard/saved/page": "/dashboard/saved",
+  "/dashboard/credits/page": "/dashboard/credits",
+  "/dashboard/post/[id]/page": "/dashboard/post/[id]",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/explore/page": "/dashboard/explore"
+}
