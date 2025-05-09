@@ -4,9 +4,9 @@
   "/page": "/",
   "/register/page": "/register",
   "/dashboard/admin/moderation/page": "/dashboard/admin/moderation",
-  "/dashboard/saved/page": "/dashboard/saved",
+  "/dashboard/explore/page": "/dashboard/explore",
   "/dashboard/credits/page": "/dashboard/credits",
-  "/dashboard/post/[id]/page": "/dashboard/post/[id]",
   "/dashboard/page": "/dashboard",
-  "/dashboard/explore/page": "/dashboard/explore"
+  "/dashboard/post/[id]/page": "/dashboard/post/[id]",
+  "/dashboard/saved/page": "/dashboard/saved"
 }
