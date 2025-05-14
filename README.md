@@ -1,6 +1,4 @@
-Here is the full content written as a proper `.md` file. You can save this directly as `README.md` in your GitHub repository:
 
----
 
 ```markdown
 # 🌐 Community Learning Hub
@@ -132,7 +130,4 @@ B.Tech AI & Data Science, IIT Jodhpur
 
 ```
 
----
 
-Let me know if you’d like to include Docker support instructions or deployment guides (e.g., Vercel for frontend and Render/Heroku for backend).
-```
