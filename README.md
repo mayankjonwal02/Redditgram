@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # 🌐 Community Learning Hub
 
 A platform that aggregates and curates high-quality learning content from Reddit using the **Reddit API**, providing a centralized space for learners to discover, discuss, and share knowledge.
@@ -128,6 +128,6 @@ This project is licensed under the [MIT License](LICENSE).
 B.Tech AI & Data Science, IIT Jodhpur
 [LinkedIn](https://www.linkedin.com/in/mayankjonwal) • [GitHub](https://github.com/<your-username>)
 
-```
+
 
 
